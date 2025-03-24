@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="fillintheblank.css">
+</head>
+<body>
+
+    <nav>
+        <p>Quizical.Hub</p>
+    </nav>
+
+    <div class="quiz-container">
+        <h1>Fill in the blank CSS</h1>
+        <div class="quiz" id="quiz-container">
+
+            <div id="questions-set1" class="question-set">
+                <div class="question">
+                    <label for="question1">1. The property used to set the background color is <span>_____</span>.</label><br>
+                    <input type="text" id="question1" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question2">2. The CSS selector for an element with a spacific id is <span>_____</span>. </label><br>
+                    <input type="text" id="question2" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question3">3. The CSS rule to change text size is <span>_________</span>.</label><br>
+                    <input type="text" id="question3" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question4">4. Used to add space inside an element's boder is <span>_______</span>.</label><br>
+                    <input type="text" id="question4" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question5">5. body { background-<span>_____</span>: blue; }</label><br>
+                    <input type="text" id="question5" placeholder="Enter your answer here:">
+                </div>
+                <button type="button" onclick="back()">Previous</button>
+                <button type="button" onclick="nextSet()">Proceed</button>
+            </div>
+
+            <div id="questions-set2" class="question-set" style="display:none;">
+                <div class="question">
+                    <label for="question6">6. p { font-<span>____</span>"3rem"; }</label><br>
+                    <input type="text" id="question6" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question7">7. .box { width: 50rem;   height: <span>__</span>rem;  }</label><br>
+                    <input type="text" id="question7" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question8">8. div { boder:<span>___</span> solid black; } </label><br>
+                    <input type="text" id="question8" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question9">9. #header { text-<span>______</span>: center; }</label><br>
+                    <input type="text" id="question9" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question10">10. ul { list-<span>____</span>: none; }</label><br>
+                    <input type="text" id="question10" placeholder="Enter your answer here:">
+                </div>
+                <button type="button" onclick="back()">Previous</button>
+                <button type="button" onclick="nextSet()">Proceed</button>
+            </div>
+
+            <div id="questions-set3" class="question-set" style="display:none;">
+                <div class="question">
+                    <label for="question11">11. .container {display:<span>_____</span>; } </label><br>
+                    <input type="text" id="question11" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question12">12. a:<span>___</span> {color: white;}</label><br>
+                    <input type="text" id="question12" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question13">13. button { cursor:<span>______</span>; }</label><br>
+                    <input type="text" id="question13" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question14">14. h1 { font-<span>______</span>: arial, sans-serif; </label><br>
+                    <input type="text" id="question14" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question15">15. p { line-<span>_____</span>: 1.5; } </label><br>
+                    <input type="text" id="question15" placeholder="Enter you answer here:">
+                </div>
+                <button type="button" onclick="back()">Previous</button>
+                <button type="button" onclick="nextSet()">Proceed</button>
+            </div>
+
+            <div id="questions-set4" class="question-set" style="display:none;">
+                <div class="question">
+                    <label for="question16">16. .box {margin-bottom:10<span>__</span>; </label><br>
+                    <input type="text" id="question16" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question17">17. img { max-<span>_____</span>: 100%;</label><br>
+                    <input type="text" id="question17" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question18">18. .flex-container { justify-<span>______</span>: center; }</label><br>
+                    <input type="text" id="question18" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question19">19. @media <span>(_______: 600px) {body color: red;}</span> </label><br>
+                    <input type="text" id="question19" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question20">20. .box { box-<span>_____</span>: boder-box }</label><br>
+                    <input type="text" id="question20" placeholder="Enter your answer here:">
+                </div>
+                <button type="button" onclick="back()">Previous</button>
+                <button type="button" onclick="nextSet()">Proceed</button>
+            </div>
+
+            <div id="questions-set5" class="question-set" style="display:none;">
+                <div class="question">
+                    <label for="question21">21. table { border-<span>_____</span>: collapse; }</label><br>
+                    <input type="text" id="question21" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question22">22. input {outline: <span>____</span>; }</label><br>
+                    <input type="text" id="question22" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question23">23. .btn { transition-<span>_______</span>: 0.3s </label><br>
+                    <input type="text" id="question23" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question24">24. div {<span>______</span>: absolute } </label><br>
+                    <input type="text" id="question24" placeholder="Enter your answer here:">
+                </div>
+                <div class="question">
+                    <label for="question25">25. To make an element visible but still take space, we use <span>________</span>.</label><br>
+                    <input type="text" id="question25" placeholder="Enter your answer here:">
+                </div>
+                <button type="button" onclick="back()">Previous</button>
+                <button type="button" onclick="checkAnswers()">Submit</button>
+            </div>
+
+            <p id="result" style="display:none;"></p>
+
+            <button class="but" id="view-incorrect" type="button" onclick="showIncorrectAnswers()" style="display:none;">review</button>
+
+        </div>
+    </div>  
+
+</body>
+</html>
+
+<script>
+let currentSet = 1;
+    let incorrectAnswers = [];
+
+    function nextSet() {
+        let unanswered = false;
+        let questions = document.querySelectorAll(`#questions-set${currentSet} .question input`);
+        
+        for (let question of questions) {
+            if (question.value.trim() === "") {
+                unanswered = true;
+                break;
+            }
+        }
+
+        if (unanswered) {
+            alert("Please answer all the questions before proceeding.");
+            return;
+        }
+
+        document.getElementById(`questions-set${currentSet}`).style.display = "none";
+        
+        currentSet++;
+        
+        if (document.getElementById(`questions-set${currentSet}`)) {
+            document.getElementById(`questions-set${currentSet}`).style.display = "block";
+        }
+
+        if (currentSet === 5) {
+            document.querySelector("button[type='button']").textContent = "Submit";
+            document.querySelector("button[type='button']").setAttribute("onclick", "checkAnswers()");
+        }
+    }
+
+    function back() {
+        if(currentSet > 1){
+            document.getElementById(`questions-set${currentSet}`).style.display = "none";
+            currentSet--;
+            document.getElementById(`questions-set${currentSet}`).style.display = "block";
+        }
+    }
+
+    function checkAnswers() {
+        let answers = {
+            question1: "html",
+            question2: "body",
+            question3: "href",
+            question4: "src",
+            question5: "tr",
+            question6: "html",
+            question7: "head",
+            question8: "title",
+            question9: "meta",
+            question10: "style",
+            question11: "text",
+            question12: "img",
+            question13: "method",
+            question14: "href",
+            question15: "li",
+            question16: "li",
+            question17: "td",
+            question18: "class",
+            question19: "class",
+            question20: "type",
+            question21: "src",
+            question22: "href",
+            question23: "src",
+            question24: "src",
+            question25: "for"
+        };
+
+        let score = 0;
+        let result = document.getElementById('result');
+        let wrongAnswersHTML = "<h3>Incorrect Answers:</h3>";
+
+        incorrectAnswers = [];
+
+        for (let i = 1; i <= 25; i++) {
+            let userAnswer = document.getElementById(`question${i}`).value.trim().toLowerCase();
+            if (userAnswer === answers[`question${i}`]) {
+                score++;
+            } else {
+                incorrectAnswers.push({
+                    questionNumber: i,
+                    userAnswer: userAnswer,
+                    correctAnswer: answers[`question${i}`] || 'Not Available'
+                });
+            }
+        }
+
+        result.style.display = "block";
+        if (score === 0) {
+            result.innerHTML = `You didn't get any correct answers. Keep trying!`;
+        } else if (score <= 10) {
+            result.innerHTML = `Your score is ${score}/25. Nice effort, but there's room for improvement!`;
+        } else if (score <= 20) {
+            result.innerHTML = `Your score is ${score}/25. Well done! You're getting there.`;
+        } else {
+            result.innerHTML = `Your score is ${score}/25. Excellent! You really know your stuff!`;
+        }
+
+        if (incorrectAnswers.length > 0) {
+            document.getElementById("view-incorrect").style.display = "block";
+        }
+    }
+
+    function showIncorrectAnswers() {
+        let result = document.getElementById('result');
+        let wrongAnswersHTML = "<h3>Incorrect Answers:</h3>";
+
+        for (let incorrect of incorrectAnswers) {
+            wrongAnswersHTML += `<p>Question ${incorrect.questionNumber}: Your answer: <strong>${incorrect.userAnswer}</strong> | Correct answer: <strong>${incorrect.correctAnswer}</strong></p>`;
+        }
+
+        result.innerHTML += wrongAnswersHTML; 
+        document.getElementById("view-incorrect").style.display = "none";
+    }
+</script>

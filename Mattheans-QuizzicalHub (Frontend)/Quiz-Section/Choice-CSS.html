@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/QuizzicalHUB-LOGO.jpg" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+    <title>Quizzical Hub (Multiple Choice CSS)</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="Multiple-choice.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-content">
+            <img src="../img/Quizzical-logo.png" alt="" width="80px" height="75px" class="quizzical-logo">
+            <h1>Quizzical Hub</h1>
+        </div>
+        <ul class="navbar">
+            <span><a href="../Main/Homepage.html"><i class='bx bx-arrow-back'></i><h4>Dashboard</h4></a></span>
+        </ul>
+    </header>  
+
+
+    <section>
+        <div class="header">
+            <h2>MULTIPLE CHOICE CSS</h2>
+        </div>
+
+        <div class="result-content">
+            <p id="result"></p>
+        </div>
+
+        <div id="container" class="container">
+            <h1 id="questionTitle">Quiz no 1: How to center a text on CSS?</h1>
+            <div id="quiz" class="quiz">
+                <div id="question1" class="card">
+                    <label>
+                        <input type="radio" name="option" value="A">  text-align:center;
+                    </label>
+                </div>
+                <div id="question2" class="card">
+                    <label>
+                        <input type="radio" name="option" value="B"> align-items:center;
+                    </label>
+                </div>
+                <div id="question3" class="card">
+                    <label>
+                        <input type="radio" name="option" value="C"> justify-content:center;
+                    </label>
+                </div>
+                <div id="question4" class="card">
+                    <label>
+                        <input type="radio" name="option" value="D">  text-align:enter;
+                    </label>
+                </div>
+                
+                <div class="buttons">
+                    <div class="card-button">
+                        <button id="back">Previews</button>
+                    </div>
+                    <div class="card-button">
+                        <a href="../Quiz-point/select(HTML).html"><button>Back</button></a>
+                    </div>
+                    <div class="card-button">
+                        <button id="next">Proceed</button>
+                    </div>
+                </div>
+
+                <div id="resultModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Your Results</h2>
+                        <div id="finalResult"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="JavaScript/CSSAPP1.js">
+    </script>
+
+</body>
+</html>

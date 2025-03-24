@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzical Hub (Dashboard)</title> 
+    <link rel="icon" href="../img/QuizzicalHUB-LOGO.jpg" type="image/x-icon"/>   
+
+    <link rel="stylesheet" href="Home.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <div class="logo-content">
+            <img src="../img/Quizzical-logo.png" alt="" width="80px" height="75px" class="quizzical-logo">
+            <h1>Quizzical Hub</h1>
+        </div>
+        <ul class="navbar">
+            <span id="logout-button"><i class='bx bx-log-out'></i><h4>Logout</h4></span>
+        </ul>
+    </header>
+
+    <!-- MAIN BODY CONTAINER -->
+    <div class="main-container">
+        <div class="My-profile">
+            <div class="profile">
+                <i class='bx bx-user' style="color: rgb(255, 255, 255);"></i>
+                <h1 id="username-display"></h1>    
+            </div>
+            <p>My Dashboard</p>
+        </div>  
+        <div class="container">
+
+            <div class="card">
+                <div class="points-content">
+                    <span><i class='bx bx-info-circle'></i></span>
+                    <a href="UserInfo.html"><h4 class="view">View Account</h4></a>
+                </div>
+            </div>
+
+            <!-- USER SECTION -->
+            <div class="card">
+                <div class="points-content">
+                    <span><i class='bx bx-purchase-tag-alt' style='color:#ffffff'></i></span>
+                    <h4>Section:</h4>
+                    <h5 id="password-display">
+                </div>
+            </div>
+
+            <!-- USER OVER ALL POINTS -->
+            <div class="card">
+                <div class="points-content">
+                    <span><i class='bx bxs-objects-horizontal-left'></i></span>
+                    <h4>Overall Score: </h4> 
+                    <h5 id="total-points"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="proceed-container">
+            <h3>Take a quiz to increase your points</h3>
+            <a href="Quizzical-Rules.html"><input type="button" value="Start Quiz" class="proceed-btn"></a>
+        </div>
+    </div>
+
+
+    <!-- <footer class="footer-container">
+        <div class="footer">
+            <div class="footer-card">
+                <img src="../img/Smac-logo-Transparent.png" alt="" class="footer-smac-logo"> 
+                <img src="../img/Quizzical-logo.png" alt="" class="footer-main-logo">
+            </div>
+            <ul class="list">
+                <li><h3>&copy;2024-2025 Krv Academy</h3></li>
+                <li><p>St. Matthew Academy of Cavite</p></li>
+            </ul>
+        </div>
+    </footer> -->
+
+
+    <script src="script.js">
+    </script>
+</body>
+
