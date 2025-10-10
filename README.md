@@ -1,1 +1,1 @@
-QUizzical Hub Web
+Quizzical Hub Web
