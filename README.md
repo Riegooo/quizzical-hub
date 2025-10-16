@@ -40,7 +40,8 @@ This project is made for **ICT students** to test their knowledge through fun an
 ## 🧰 Tech Stack
 
 - 🌐 **HTML5** – Structure of the website  
-- 🎨 **CSS3** – Styling and layout  
+- 🎨 **CSS3** – Styling and layout
+- ⚙️ **JavaScript (ES6+)** — Quiz logic and interactivity
 
 ---
 
