@@ -30,10 +30,12 @@ This project is made for **ICT students** to test their knowledge through fun an
 
 ## 🧠 How It Works
 
-1. Choose a quiz category (HTML, CSS, or JavaScript).  
-2. Answer each question by selecting your choice.  
-3. Submit your answers to see your final score.  
-4. You can retry or choose another quiz anytime!  
+1. Create an account
+2. Login your account
+3. Choose a quiz category (HTML, CSS).  
+4. Answer each question by selecting your choice.  
+5. Submit your answers to see your final score.  
+6. You can retry or choose another quiz anytime!  
 
 ---
 
