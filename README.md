@@ -86,7 +86,7 @@ Example:
 ## 👨‍💻 Developer
 
 **Christian Daniel Cagas**  
-📚 ICT Student | 💻 Frontend Developer  
+
 🎯 *Built for learning, practice, and fun!*
 
 ---
