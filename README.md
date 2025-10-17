@@ -1,34 +1,34 @@
-# 🧠 Mattheans-QuizzicalHub (Frontend)
+#  Mattheans-QuizzicalHub (Frontend)
 
 A **frontend quiz website** created using **HTML, CSS, and JavaScript**.  
 This project is made for **ICT students** to test their knowledge through fun and interactive quizzes on **HTML** and **CSS** topics.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🧩 **Multiple Quiz Categories**
+-  **Multiple Quiz Categories**
   - HTML Quiz  
   - CSS Quiz  
 
-- 💬 **Interactive Quiz Interface**
+-  **Interactive Quiz Interface**
   - Displays multiple-choice questions  
   - Highlights selected answers  
   - Shows correct and wrong answers instantly  
 
-- 🧮 **Automatic Scoring**
+-  **Automatic Scoring**
   - Calculates total score at the end of the quiz  
   - Displays number of correct answers  
 
-- 🔁 **Reset & Retry**
+-  **Reset & Retry**
   - Restart the quiz anytime with one click  
 
-- 📱 **Responsive Design**
+-  **Responsive Design**
   - Works smoothly on desktop, tablet, and mobile screens  
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Create an account
 2. Login your account
@@ -39,15 +39,15 @@ This project is made for **ICT students** to test their knowledge through fun an
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
-- 🌐 **HTML5** – Structure of the website  
-- 🎨 **CSS3** – Styling and layout
-- ⚙️ **JavaScript (ES6+)** — Quiz logic and interactivity
+-  **HTML5** – Structure of the website  
+-  **CSS3** – Styling and layout
+-  **JavaScript (ES6+)** — Quiz logic and interactivity
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone this repository**
    ```bash
@@ -63,19 +63,7 @@ This project is made for **ICT students** to test their knowledge through fun an
 
 ---
 
-## 📸 Screenshots
-
-*(Optional — add your screenshots here)*  
-Example:
-```
-![Start Screen](./assets/start.png)
-![Quiz in Progress](./assets/quiz.png)
-![Result Page](./assets/result.png)
-```
-
----
-
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add a timer for each question  
 - Include difficulty levels (Easy, Medium, Hard)  
@@ -85,14 +73,14 @@ Example:
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
 **Christian Daniel Cagas**  
 
-🎯 *Built for learning, practice, and fun!*
+ *Built for learning, practice, and fun!*
 
 ---
 
-## 📝 License
+##  License
 
 This project is open-source and available under the **MIT License**.
