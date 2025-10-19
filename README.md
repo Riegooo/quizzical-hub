@@ -5,29 +5,6 @@ This project is made for **ICT students** to test their knowledge through fun an
 
 ---
 
-##  Features
-
--  **Multiple Quiz Categories**
-  - HTML Quiz  
-  - CSS Quiz  
-
--  **Interactive Quiz Interface**
-  - Displays multiple-choice questions  
-  - Highlights selected answers  
-  - Shows correct and wrong answers instantly  
-
--  **Automatic Scoring**
-  - Calculates total score at the end of the quiz  
-  - Displays number of correct answers  
-
--  **Reset & Retry**
-  - Restart the quiz anytime with one click  
-
--  **Responsive Design**
-  - Works smoothly on desktop, tablet, and mobile screens  
-
----
-
 ##  How It Works
 
 1. Create an account
