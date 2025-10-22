@@ -55,9 +55,3 @@ This project is made for **ICT students** to test their knowledge through fun an
 **Christian Daniel Cagas**  
 
  *Built for learning, practice, and fun!*
-
----
-
-##  License
-
-This project is open-source and available under the **MIT License**.
