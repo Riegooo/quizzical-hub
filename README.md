@@ -35,7 +35,7 @@ This project is made for **ICT students** to test their knowledge through fun an
    cd "Mattheans-QuizzicalHub (Frontend)"
    ```
 3. **Run the project**
-   - Simply open the `index.html` file in your browser.  
+   - Simply open the `landingpage.html` file in your browser.  
    *(No installation needed — it's a pure frontend project!)*
 
 ---
@@ -53,5 +53,3 @@ This project is made for **ICT students** to test their knowledge through fun an
 ##  Developer
 
 **Christian Daniel Cagas**  
-
- *Built for learning, practice, and fun!*
