@@ -40,16 +40,6 @@ This project is made for **ICT students** to test their knowledge through fun an
 
 ---
 
-##  Future Enhancements
-
-- Add a timer for each question  
-- Include difficulty levels (Easy, Medium, Hard)  
-- Add sound effects or animations  
-- Save high scores using Local Storage  
-- Create a leaderboard page  
-
----
-
 ##  Developer
 
 **Christian Daniel Cagas**  
