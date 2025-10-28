@@ -3,7 +3,7 @@
 A **frontend quiz website** created using **HTML, CSS, and JavaScript**.  
 This project is made for **ICT students** to test their knowledge through fun and interactive quizzes on **HTML** and **CSS** topics.
 
-- [Quizzical Hub v2](https://github.com/Riegooo/QHub_v2_Design) 
+- [Quizzical Hub v2 Tailwind CSS](https://github.com/Riegooo/QHub_v2_Design) 
 ---
 
 ##  How It Works
